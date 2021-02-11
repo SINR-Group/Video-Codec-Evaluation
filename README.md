@@ -31,12 +31,14 @@ bpp_288_libx264      =  [0.01386311026936027, 0.01937605218855219, 0.03167955597
 The folder ./plotter has the script to plot rate-distortion graph.
 The python file has dummy metrics or a sample run to get you started.
 
+The file yuv_test_sequences/ffmpeg_scale.py has scripts to resize the raw yuv 420p video sequences.
+
 
 ### Requirements 
 1. python3 with matplotlib and json
-2. ffmpeg compiled with libvmaf
+2. ffmpeg compiled with libvmaf, **tested for version 1.5.3, may not work for 2.1.1**
 
 #### References 
 1. For ffmpeg usage - https://ffmpeg.org/ - 
-2. For libvmaf usage -  https://ffmpeg.org/ffmpeg-all.html#libvmaf 
+2. For libvmaf usage -  https://ffmpeg.org/ffmpeg-all.html#libvmaf (follow the instructions carefully.)
 3. For libvmaf installation - https://github.com/Netflix/vmaf
