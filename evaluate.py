@@ -7,6 +7,7 @@ import glob
 import configparser 
 from runvp9 import runvp9
 from runh26x import runh26x
+from runav1 import runav1
 from quality import quality
 from average import average
 
@@ -60,8 +61,12 @@ class Evaluate():
     def encode_decode(self):
         if self.codec == 'libvpx-vp9':
             runvp9(self)
-        else:
+        elif self.codec == 'libx265' or self.codec == 'libx264':
             runh26x(self)
+        elif self.codec == 'libaom-av1':
+            runav1(self); 
+        else:
+            pass;
     
     def measure_quality(self):
         quality(self)

@@ -39,6 +39,11 @@ The file yuv_test_sequences/ffmpeg_scale.py has scripts to resize the raw yuv 42
 2. ffmpeg compiled with libvmaf, **tested for version 1.5.3, may not work for 2.1.1**
 
 #### References 
-1. For ffmpeg usage - https://ffmpeg.org/ - 
+1. For ffmpeg usage - https://ffmpeg.org/, installation - https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu 
 2. For libvmaf usage -  https://ffmpeg.org/ffmpeg-all.html#libvmaf (follow the instructions carefully.)
-3. For libvmaf installation - https://github.com/Netflix/vmaf
+3. For libvmaf installation - https://ottverse.com/vmaf-ffmpeg-ubuntu-compilation-installation-usage-guide/, https://github.com/Netflix/vmaf
+
+#### Test Sequences 
+1. UVG test sequences - http://ultravideo.fi/#testsequences
+2. Traces, ASU dataset - http://trace.eas.asu.edu/yuv/index.html
+3. Xiph dataset - https://media.xiph.org/video/derf/
