@@ -77,7 +77,10 @@ def calc_avg_bpp(self, crf_list, files):
 
 
 def average(self):
-    crf = crflist(self.crf)
+    if self.mode == 'crf':
+        crf = crflist(self.crf)
+    else:
+        crf = crflist(self.cbr)
     files = readfilename(self)
     calc_avg_qual(self, crf, files)
     calc_avg_bpp(self, crf, files)

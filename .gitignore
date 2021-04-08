@@ -1,0 +1,8 @@
+*.log
+*.json
+*.yuv
+*.pyc
+*.mp4
+*.txt
+*.temp
+*.cutree

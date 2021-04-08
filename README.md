@@ -12,7 +12,7 @@ Please follow the steps below to set up the environment before a run -
 1. Keep you yuv raw videos in the ./yuv_test_sequence folder, in corresponding resolution folder.
 2. Update the config file (config.ini) - check the quality range, gop value, codec type etc.
 3. Run - "python3 evaluate.py"
-
+4. Constant Bitrate (CBR) encoding is currently supported for h.265 only. See the config file for new 'mode' and parameters.
 
 ### Output
 #### The output is saved in the ./results folder, the binaries are saved in the ./bin_out folder.

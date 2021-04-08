@@ -27,6 +27,8 @@ class Evaluate():
         self.codec      = config['CODEC']['codec']
         self.gop        = config['CODEC']['gop']
         self.crf        = config['CODEC']['crf']
+        self.cbr        = config['CODEC']['cbr']
+        self.mode       = config['CODEC']['mode']
            
         #Sequence
         self.frames     = config['SEQUENCE']['frames']
